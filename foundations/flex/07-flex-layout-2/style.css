@@ -41,8 +41,17 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-direction: row;
+  flex:  1 1 250px;
+  padding: 30px;
+}
+
+.cards{
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 60%;
+  padding: 40px;
+  gap: 50px;
 }
 
 .middle {
